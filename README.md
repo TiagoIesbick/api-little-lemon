@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">
-<img src="https://github.com/TiagoIesbick/little-lemon-capstone/blob/main/src/assets/images/logo.png" width="100" />
+<img src="https://github.com/TiagoIesbick/little-lemon-capstone/blob/main/src/assets/images/logo.png" width="200" />
 <br>API_LittleLemon
 </h1>
 <h3>◦ Developed with the software and tools below.</h3>
