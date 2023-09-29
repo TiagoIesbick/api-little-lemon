@@ -24,4 +24,3 @@ users:
         Username: John
         Email: john@littlelemon.com
         Password: lemon@joh!
-        
