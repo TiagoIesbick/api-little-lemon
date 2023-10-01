@@ -29,25 +29,32 @@
     - [🧪 Tests](#-tests)
 - [🛣 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
 
 ## 📍 Overview
 
-Fully functioning API project for the Little Lemon restaurant so that the client application developers can use the APIs to develop web and mobile applications. People with different roles will be able to browse, add and edit menu items, place orders, browse orders, assign delivery crew to orders and finally deliver the orders.
+Fully functioning API project for the fictional Little Lemon restaurant so that the client application developers can use the APIs to develop web and mobile applications. People with different roles will be able to browse, add and edit menu items, place orders, browse orders, assign delivery crew to orders and finally deliver the orders.
 
 Filtering, pagination, sorting and throttling capabilities as well as authentication and authorization.
 
-Develop  with 💜 by Tiago Iesbick
+Developed  with 💜 by Tiago Iesbick
 
 ---
 
 ## 📦 Features
 
-HTTPStatus Exception: 429
+- User creation;
+- Token creation;
+- Get all users;
+- Get user detail;
+- Add and remove users from groups;
+- List, create, retrieve, update and destroy categories;
+- List, create, retrieve, update and destroy menu items;
+- List, create and destroy shopping cart;
+- List and create orders;
+- Retrieve, update and destroy single order.
 
 ---
 
@@ -128,7 +135,7 @@ HTTPStatus Exception: 429
 
 | File                                                                                                                   | Summary                   |
 | ---                                                                                                                    | ---                       |
-| [0001_initial.py](https://github.com/TiagoIesbick/API_LittleLemon/blob/main/LittleLemonAPI/migrations/0001_initial.py) | HTTPStatus Exception: 429 |
+| [0001_initial.py](https://github.com/TiagoIesbick/API_LittleLemon/blob/main/LittleLemonAPI/migrations/0001_initial.py) | Django creates a migration file inside the migration folder for each model to create the table schema, and each table is mapped to the model of which migration is created. |
 
 </details>
 
@@ -140,11 +147,9 @@ HTTPStatus Exception: 429
 
 Please ensure you have the following dependencies installed on your system:
 
-`- ℹ️ Dependency 1`
+`- i Python 3.11`
 
-`- ℹ️ Dependency 2`
-
-`- ℹ️ ...`
+`- i Pipenv`
 
 ### 🔧 Installation
 
