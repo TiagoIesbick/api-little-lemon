@@ -45,10 +45,7 @@ Developed  with 💜 by Tiago Iesbick
 
 ## 📦 Features
 
-- User creation;
-- Token creation;
-- Get all users;
-- Get user detail;
+- User management and token based authentication with [djoser](https://djoser.readthedocs.io/en/latest/index.html);
 - Add and remove users from groups;
 - List, create, retrieve, update and destroy categories;
 - List, create, retrieve, update and destroy menu items;
@@ -163,15 +160,20 @@ git clone https://github.com/TiagoIesbick/api-little-lemon
 cd api-little-lemon
 ```
 
-3. Install the dependencies:
+3. Create a virtualenv:
 ```sh
-pip install -r requirements.txt
+pipenv shell
+```
+
+4. Install the dependencies:
+```sh
+pipenv install
 ```
 
 ### 🤖 Running api-little-lemon
 
 ```sh
-python main.py
+python manage.py runserver
 ```
 
 ### 🧪 Tests
