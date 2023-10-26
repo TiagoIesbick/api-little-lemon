@@ -27,7 +27,7 @@
     - [🔧 Installation](#-installation)
     - [🤖 Running api-little-lemon](#-running-api-little-lemon)
     - [🧪 Tests](#-tests)
-- [🚦 Routes](#-routes)
+- [🎯 Endpoints](#-endpoints)
 - [🤝 Contributing](#-contributing)
 
 ---
@@ -185,7 +185,7 @@ pytest
 ---
 
 
-## 🚦 Routes
+## 🎯 Endpoints
 
 | Available endpoints | Methods    | Description |
 |---------------------|------------|-------------|
