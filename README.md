@@ -187,9 +187,18 @@ pytest
 
 ## 🛣 Roadmap
 
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Implement Y`
-> - [ ] `ℹ️ ...`
+| Available endpoints | Method     | Description |
+|---------------------|------------|-------------|
+| `/admin`            | GET        |-------------|
+| `-b`                |            |             |
+| `-e`                | Use ```false``` to remove emojis from README default template. | |
+| `-f`                | Use ```true``` to run README-AI without an API key.            | |
+| `-m`                | Default large language model is the `gpt-3.5-turbo` engine.    | |
+| `-o`       | The output path for your README.md file.                       | |
+| `-r`       | The URL or path to your code repository.                       | |
+| `-t`       | The temperature (randomness) of the model responses.           | |
+| `-l`       | The language of text to write README in.                       | |
+| `-s`       | The README template style to build.                            | |
 
 
 ---
