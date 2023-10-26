@@ -202,7 +202,17 @@ pytest
 | `/api/users/reset_username_confirm/`       | POST, OPTIONS                            | |
 | `/token/login/`       | POST, OPTIONS                           | |
 | `/token/logout/`       | POST, OPTIONS                             | |
-
+| `/api/groups/manager/users`       | GET, OPTIONS, POST                             | |
+| `/api/groups/manager/users/<int>`       | OPTIONS, DELETE                             | |
+| `/api/groups/delivery-crew/users`       | GET, OPTIONS, POST                             | |
+| `/api/groups/delivery-crew/users/<int>`       | OPTIONS, DELETE                            | |
+| `/api/categories`       | GET, POST, HEAD, OPTIONS                             | |
+| `/api/categories/<int>`       | GET, PUT, PATCH, DELETE, HEAD, OPTIONS                             | |
+| `/api/menu-items`       | GET, POST, HEAD, OPTIONS                            | |
+| `/api/menu-items/<int>`       | GET, PUT, PATCH, DELETE, HEAD, OPTIONS                             | |
+| `/api/cart/menu-items`       | GET, POST, DELETE, HEAD, OPTIONS                            | |
+| `/api/orders`       | GET, POST, HEAD, OPTIONS                            | |
+| `/api/orders/<int>`       | GET, PUT, PATCH, DELETE, HEAD, OPTIONS                             | |
 
 ---
 
