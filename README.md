@@ -189,30 +189,30 @@ pytest
 
 | Available endpoints | Methods    | Description |
 |---------------------|------------|-------------|
-| `/admin/`           | GET        | Django administration |
-| `/api/users/`       | GET, POST, HEAD, OPTIONS  |             |
-| `/api/users/me/`    | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
+| `/admin/` | GET | Django administration |
+| `/api/users/` | GET, POST, HEAD, OPTIONS |             |
+| `/api/users/me/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
 | `/api/users/confirm/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
-| `/api/users/resend_activation/` | POST, OPTIONS    | |
-| `/api/users/set_password/`       | POST, OPTIONS                       | |
-| `/api/users/reset_password/`       | POST, OPTIONS                       | |
-| `/api/users/reset_password_confirm/`       | POST, OPTIONS           | |
-| `/api/users/set_username/`       | POST, OPTIONS                        | |
-| `/api/users/reset_username/`       | POST, OPTIONS                            | |
-| `/api/users/reset_username_confirm/`       | POST, OPTIONS                            | |
-| `/token/login/`       | POST, OPTIONS                           | |
-| `/token/logout/`       | POST, OPTIONS                             | |
-| `/api/groups/manager/users`       | GET, OPTIONS, POST                             | |
-| `/api/groups/manager/users/<int>`       | OPTIONS, DELETE                             | |
-| `/api/groups/delivery-crew/users`       | GET, OPTIONS, POST                             | |
-| `/api/groups/delivery-crew/users/<int>`       | OPTIONS, DELETE                            | |
-| `/api/categories`       | GET, POST, HEAD, OPTIONS                             | |
-| `/api/categories/<int>`       | GET, PUT, PATCH, DELETE, HEAD, OPTIONS                             | |
-| `/api/menu-items`       | GET, POST, HEAD, OPTIONS                            | |
-| `/api/menu-items/<int>`       | GET, PUT, PATCH, DELETE, HEAD, OPTIONS                             | |
-| `/api/cart/menu-items`       | GET, POST, DELETE, HEAD, OPTIONS                            | |
-| `/api/orders`       | GET, POST, HEAD, OPTIONS                            | |
-| `/api/orders/<int>`       | GET, PUT, PATCH, DELETE, HEAD, OPTIONS                             | |
+| `/api/users/resend_activation/` | POST, OPTIONS | |
+| `/api/users/set_password/` | POST, OPTIONS | |
+| `/api/users/reset_password/` | POST, OPTIONS | |
+| `/api/users/reset_password_confirm/` | POST, OPTIONS | |
+| `/api/users/set_username/` | POST, OPTIONS | |
+| `/api/users/reset_username/` | POST, OPTIONS | |
+| `/api/users/reset_username_confirm/` | POST, OPTIONS | |
+| `/token/login/` | POST, OPTIONS | |
+| `/token/logout/` | POST, OPTIONS | |
+| `/api/groups/manager/users` | GET, OPTIONS, POST | |
+| `/api/groups/manager/users/<int>` | OPTIONS, DELETE | |
+| `/api/groups/delivery-crew/users` | GET, OPTIONS, POST | |
+| `/api/groups/delivery-crew/users/<int>` | OPTIONS, DELETE | |
+| `/api/categories` | GET, POST, HEAD, OPTIONS | |
+| `/api/categories/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
+| `/api/menu-items` | GET, POST, HEAD, OPTIONS | |
+| `/api/menu-items/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
+| `/api/cart/menu-items` | GET, POST, DELETE, HEAD, OPTIONS | List, create and destroy shopping cart. |
+| `/api/orders` | GET, POST, HEAD, OPTIONS | List and create orders. |
+| `/api/orders/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Retrieve, update and destroy single order. |
 
 ---
 
