@@ -206,10 +206,10 @@ pytest
 | `/api/groups/manager/users/<int>` | OPTIONS, DELETE | |
 | `/api/groups/delivery-crew/users` | GET, OPTIONS, POST | |
 | `/api/groups/delivery-crew/users/<int>` | OPTIONS, DELETE | |
-| `/api/categories` | GET, POST, HEAD, OPTIONS | |
-| `/api/categories/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
-| `/api/menu-items` | GET, POST, HEAD, OPTIONS | |
-| `/api/menu-items/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
+| `/api/categories` | GET, POST, HEAD, OPTIONS | List and create categories. |
+| `/api/categories/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Retrieve, update and destroy single category. |
+| `/api/menu-items` | GET, POST, HEAD, OPTIONS | List and create menu items. |
+| `/api/menu-items/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Retrieve, update and destroy single menu item. |
 | `/api/cart/menu-items` | GET, POST, DELETE, HEAD, OPTIONS | List, create and destroy shopping cart. |
 | `/api/orders` | GET, POST, HEAD, OPTIONS | List and create orders. |
 | `/api/orders/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Retrieve, update and destroy single order. |
