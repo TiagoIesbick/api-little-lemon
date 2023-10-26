@@ -187,18 +187,21 @@ pytest
 
 ## 🚦 Routes
 
-| Available endpoints | Method     | Description |
+| Available endpoints | Methods    | Description |
 |---------------------|------------|-------------|
 | `/admin/`           | GET        | Django administration |
 | `/api/users/`       | GET, POST, HEAD, OPTIONS  |             |
 | `/api/users/me/`    | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
-| `-f`                | Use ```true``` to run README-AI without an API key.            | |
-| `-m`                | Default large language model is the `gpt-3.5-turbo` engine.    | |
-| `-o`       | The output path for your README.md file.                       | |
-| `-r`       | The URL or path to your code repository.                       | |
-| `-t`       | The temperature (randomness) of the model responses.           | |
-| `-l`       | The language of text to write README in.                       | |
-| `-s`       | The README template style to build.                            | |
+| `/api/users/confirm/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
+| `/api/users/resend_activation/` | POST, OPTIONS    | |
+| `/api/users/set_password/`       | POST, OPTIONS                       | |
+| `/api/users/reset_password/`       | POST, OPTIONS                       | |
+| `/api/users/reset_password_confirm/`       | POST, OPTIONS           | |
+| `/api/users/set_username/`       | POST, OPTIONS                        | |
+| `/api/users/reset_username/`       | POST, OPTIONS                            | |
+| `/api/users/reset_username_confirm/`       | POST, OPTIONS                            | |
+| `/token/login/`       | POST, OPTIONS                           | |
+| `/token/logout/`       | POST, OPTIONS                             | |
 
 
 ---
