@@ -27,7 +27,7 @@
     - [🔧 Installation](#-installation)
     - [🤖 Running api-little-lemon](#-running-api-little-lemon)
     - [🧪 Tests](#-tests)
-- [🛣 Roadmap](#-roadmap)
+- [🚦 Routes](#-routes)
 - [🤝 Contributing](#-contributing)
 
 ---
@@ -185,13 +185,13 @@ pytest
 ---
 
 
-## 🛣 Roadmap
+## 🚦 Routes
 
 | Available endpoints | Method     | Description |
 |---------------------|------------|-------------|
-| `/admin`            | GET        |-------------|
-| `-b`                |            |             |
-| `-e`                | Use ```false``` to remove emojis from README default template. | |
+| `/admin/`           | GET        | Django administration |
+| `/api/users/`       | GET, POST, HEAD, OPTIONS  |             |
+| `/api/users/me/`    | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
 | `-f`                | Use ```true``` to run README-AI without an API key.            | |
 | `-m`                | Default large language model is the `gpt-3.5-turbo` engine.    | |
 | `-o`       | The output path for your README.md file.                       | |
