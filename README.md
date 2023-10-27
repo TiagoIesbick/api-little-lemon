@@ -189,23 +189,23 @@ pytest
 
 | Available endpoints | Methods    | Description |
 |---------------------|------------|-------------|
-| `/admin/` | GET | Django administration |
-| `/api/users/` | GET, POST, HEAD, OPTIONS |             |
-| `/api/users/me/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
-| `/api/users/confirm/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | |
-| `/api/users/resend_activation/` | POST, OPTIONS | |
-| `/api/users/set_password/` | POST, OPTIONS | |
-| `/api/users/reset_password/` | POST, OPTIONS | |
-| `/api/users/reset_password_confirm/` | POST, OPTIONS | |
-| `/api/users/set_username/` | POST, OPTIONS | |
-| `/api/users/reset_username/` | POST, OPTIONS | |
-| `/api/users/reset_username_confirm/` | POST, OPTIONS | |
-| `/token/login/` | POST, OPTIONS | |
-| `/token/logout/` | POST, OPTIONS | |
-| `/api/groups/manager/users` | GET, OPTIONS, POST | |
-| `/api/groups/manager/users/<int>` | OPTIONS, DELETE | |
-| `/api/groups/delivery-crew/users` | GET, OPTIONS, POST | |
-| `/api/groups/delivery-crew/users/<int>` | OPTIONS, DELETE | |
+| `/admin/` | GET | Django administration. |
+| `/api/users/` | GET, POST, HEAD, OPTIONS | List and create users. |
+| `/api/users/me/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Retrieve, update and destroy your own user. |
+| `/api/users/confirm/` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Finish user process. |
+| `/api/users/resend_activation/` | POST, OPTIONS | Re-send the activation e-mail. |
+| `/api/users/set_password/` | POST, OPTIONS | Change user password. |
+| `/api/users/reset_password/` | POST, OPTIONS | Send email to user with password reset link. |
+| `/api/users/reset_password_confirm/` | POST, OPTIONS | Finish reset password process. |
+| `/api/users/set_username/` | POST, OPTIONS | Change username field. |
+| `/api/users/reset_username/` | POST, OPTIONS | Send email to user with username reset link. |
+| `/api/users/reset_username_confirm/` | POST, OPTIONS | Finish reset username process. |
+| `/token/login/` | POST, OPTIONS | Obtain user authentication token. |
+| `/token/logout/` | POST, OPTIONS | Logout user (remove user authentication token). |
+| `/api/groups/manager/users` | GET, OPTIONS, POST | List and add users to managers group. |
+| `/api/groups/manager/users/<int>` | OPTIONS, DELETE | Remove user from managers group. |
+| `/api/groups/delivery-crew/users` | GET, OPTIONS, POST | List and add users to delivery crew. |
+| `/api/groups/delivery-crew/users/<int>` | OPTIONS, DELETE | Remove user from delivery crew. |
 | `/api/categories` | GET, POST, HEAD, OPTIONS | List and create categories. |
 | `/api/categories/<int>` | GET, PUT, PATCH, DELETE, HEAD, OPTIONS | Retrieve, update and destroy single category. |
 | `/api/menu-items` | GET, POST, HEAD, OPTIONS | List and create menu items. |
